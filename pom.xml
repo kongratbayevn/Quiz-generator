@@ -20,6 +20,7 @@
         <kotlin.version>1.7.22</kotlin.version>
         <spring-cloud.version>2021.0.5</spring-cloud.version>
     </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -35,6 +36,9 @@
     <modules>
         <module>discovery</module>
         <module>gateway</module>
+        <module>question-service</module>
+        <module>quiz-generate-service</module>
+        <module>user-service</module>
     </modules>
 
 
